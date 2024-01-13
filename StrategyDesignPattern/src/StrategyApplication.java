@@ -1,6 +1,5 @@
 import driveStrategy.impl.DriveTruck;
 import driveStrategy.impl.DriveTwoWheeler;
-import vehicle.Vehicle;
 import vehicle.fourWheelerVehicle.Car;
 import vehicle.fourWheelerVehicle.Truck;
 import vehicle.twoWheelerVehicle.Bicycle;
@@ -13,7 +12,7 @@ import vehicle.twoWheelerVehicle.Motorcycle;
  * ways and extract all of these algorithms into separate classes called strategies.
  */
 
-public class Main {
+public class StrategyApplication {
     public static void main(String[] args) {
         Motorcycle motorcycle = new Motorcycle();
         // decides implementation at runtime
