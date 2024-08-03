@@ -4,6 +4,10 @@ import pizza.VegDelightPizza;
 import toppings.ExtraCheeseTopping;
 import toppings.ExtraVegisTopping;
 
+/**
+ * We can make may combination as we want without creating new class of each specific type also if we want any other
+ * decorator we can create one without changing existing decorator or base class.
+ */
 public class DecoratorApplication {
     public static void main(String[] args) {
         
