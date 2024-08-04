@@ -1,6 +1,6 @@
 class Adaptor implements Car {
     HotAirBalloon hotAirBalloon;
-    String gasUsed = "Hellium";
+    String gasUsed = "Helium";
     Adaptor(HotAirBalloon balloon) {
         hotAirBalloon = balloon;
     }
